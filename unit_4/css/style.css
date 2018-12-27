@@ -1,24 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lora|Source+Serif+Pro);
+
 h1 {
-	font-size: 70px;
+	font-size: 80px;
 	color: rgb(64,64,64);
 	margin-top: 350px;
 	margin-left: 350px;
+	font-family: 'Lobster', cursive;
 }
 
 h2 {
-	font-size: 40px;
-}
-
-ul {
-	list-style-type: circle;
-}
-
-ul,ol {
-	font-family: "Arial", Times, serif;
-}
-
-p {
-	font-family: "Arial Black", Times, serif;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Source Serif Pro', serif;
 }
 
 a:link { 
@@ -28,6 +21,8 @@ a:link {
 .boxes {
 	border: 3px solid green;
 	padding: 25px;
+	font-size: 30px;
+	font-family: 'Source Serif Pro', serif;
 }
 
 #above_the_fold {
@@ -48,13 +43,9 @@ a:link {
 }
 
 #slogan	{
-	font-size: 50px;
+	font-size: 60px;
 	font-style: italic;
 	color: #000000;
-	font-family: "Arial Black", Times, serif;
-	text-align: center;
-}
-
-.center {
+	font-family: 'Gloria Hallelujah', cursive;	
 	text-align: center;
 }
