@@ -1,0 +1,104 @@
+header {
+    /*background-color: #FFB7CF;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+aside {
+    /*background-color: #FFC675;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+nav {
+    /*background-color: #E8C66A;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+article {
+    /*background-color: #E89C6C;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+footer {
+    /*background-color: #FF957E;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    /*background-color: #FFE2B8;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+div {
+    /*background-color: #FFE2B8;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+main {
+    /*background-color: yellow;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.logo {
+    width: 100%;
+}
+
+.home-main {
+    text-align: center;
+}
+
+.middle-nav {
+    text-align: center;
+}
+
+.wrapper {
+    color: white;
+    background-image: url("../images/home-background.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.top-nav li {
+  display: inline;
+}
+
+header .left {
+    /*background-color: violet;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: left;
+    width: 5%;
+    min-width: 40px;
+}
+
+header .right {
+    /*background-color: pink;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: right;   
+    width: 50%;
+    text-align: right;
+}
+
+/*.home-main h1, h2, h3 {
+    color: white;
+}*/
