@@ -1,76 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches|Dancing+Script');
 
-/*
 
-header {
-    border: 1px white solid;
-    padding: 20px;
+
+header, aside, nav, article, footer, section, main, div {
+    /*border: 1px white solid;*/
 }
 
-aside {
-    border: 1px white solid;
-    padding: 20px;
-}
-
-nav {
-    border: 1px white solid;
-    padding: 20px;
-}
-
-article {
-    border: 1px white solid;
-    padding: 20px;
-}
-
-footer {
-    border: 1px white solid;
-    padding: 20px;
-}
-
-section {
-    border: 1px white solid;
-    padding: 20px;
-}
-
-div {
-    border: 1px white solid;
-    padding: 20px;
-}
-
-main {
-    border: 1px white solid;
-    padding: 20px;
-}
-*/
-
-header {
-    padding: 20px;
-}
-
-aside {
-    padding: 20px;
-}
-
-nav {
-    padding: 20px;
-}
-
-article {
-    padding: 20px;
+header, aside, nav, article, footer, section, main, div {
+    /*padding: 20px;*/
 }
 
 footer {
     margin-top: 100px;
-    padding: 20px;
     text-align: center;
-}
-
-section {
-    padding: 20px;
-}
-
-main {
-    padding: 20px;
 }
 
 h1 { 
@@ -139,16 +81,16 @@ a:active {
     width: 30%;
 }
 
-.home-main {
+#home-main-article {
     text-align: center;
     padding: 40px;
 }
 
-.middle-nav {
-    text-align: center;
+#middle-nav-ul {
+    padding-left: 0;
 }
 
-.top-nav li, .middle-nav li, .bottom-nav li {
+.top-nav li, #middle-nav-ul li, .social-ul li {
   display: inline;
   font-family: 'Staatliches', serif;
 }
@@ -158,13 +100,21 @@ a:active {
     padding: 0.2em;
 }
 
-.middle-nav li {
+#middle-nav {
+    text-align: center;
+}
+
+#middle-nav-ul li {
     font-size: 2em;
     border: 3px white solid;
     padding: 0.5em;
 }
 
-.bottom-nav li {
+.social-ul {
+    padding-left: 0;
+}
+
+.social-ul li {
     font-size: 1.5em;
 }
 
@@ -184,28 +134,27 @@ a:active {
 
 
 header .left {
-    padding: 20px;
     float: left;
     width: 7%;
-    min-width: 40px;
+    min-width: 80px;
 }
 
 header .right {
-    padding: 20px;
+    padding-top: 10px;
     float: right;   
     width: 50%;
     text-align: right;
 }
 
 section .left {
-    padding: 20px;
+    /*padding: 20px;*/
     float: left;
     width: 60%;
     min-width: 40px;
 }
 
 section .right {
-    padding: 20px;
+    /*padding: 20px;*/
     float: right;   
     width: 30%;
     text-align: right;
