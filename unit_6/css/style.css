@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Staatliches|ZCOOL+KuaiLe');
+@import url('https://fonts.googleapis.com/css?family=Staatliches|Dancing+Script');
 
 /*
 
@@ -74,19 +74,30 @@ main {
 }
 
 h1 { 
-    font-size: 4em; 
+    font-size: 6em;
+    font-family: 'Staatliches', serif;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 h2 { 
-    font-size: 3em;
+    font-size: 6em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 4em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
-h1, h2, h3 {
-    font-family: 'ZCOOL kuaiLe', serif;
+h2, h3 {
+    font-family: 'Dancing Script', serif;
+}
+
+p {
+    font-family: 'Staatliches', serif;
 }
 
 a:link {
@@ -160,8 +171,7 @@ a:active {
 #wrapper-index {
     padding: 20px;
     color: white;
-    background-image: url("../images/attempt.jpg");
-    background-blend-mode: darken;
+    background-image: url("../images/attempt-1-sunscreen.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
