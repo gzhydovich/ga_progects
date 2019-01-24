@@ -26,11 +26,6 @@ h2 {
     margin-bottom: 0.2em;
 }
 
-#logo {
-    font-size: 4em;
-    text-align: center;
-}
-
 h3 {
     font-size: 4em;
     margin-top: 0.2em;
@@ -58,12 +53,11 @@ a:hover, a:active {
 header .left {
     float: left;
     width: 20%;
-    min-width: 5em;
 }
 
 header .right {
     float: right;
-    width: 70%;
+    /*width: 70%;*/
     text-align: right;
 }
 
@@ -91,6 +85,19 @@ section .right {
 .picture {
     float: left;
     width: 30%;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    font-size: 3.8em;
+    display: inline-block;
+    font-family: 'Dancing Script', serif;
+    font-weight: bold;
+}
+
+.top-nav {
+    padding-left: 0;
 }
 
 .top-nav li, .social-ul li {
@@ -143,8 +150,36 @@ section .right {
     background-color: grey;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
+    .top-nav > li:first-child {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 630px) and (min-width: 520px) {
+    header .left {
+        float: none;
+        width: 40%;
+        margin: 0 auto;
+    }
+
     header .right {
-        /*width: 50%;*/
+        float: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+   /*it should become a breadcrumb*/
+
+   header .left {
+        width: 7em;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+   /*middle section should be smaller*/
+    body {
+        font-size: 14px;
     }
 }
