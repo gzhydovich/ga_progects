@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches|Dancing+Script');
 
-
-
 header, aside, nav, article, footer, section, main, div {
-    /*border: 1px white solid;*/
+    border: 1px white solid;
 }
 
-header, aside, nav, article, footer, section, main, div {
-    /*padding: 20px;*/
+body   {
+    font-size: 16px;
 }
 
 footer {
@@ -28,6 +26,11 @@ h2 {
     margin-bottom: 0.2em;
 }
 
+#logo {
+    font-size: 4em;
+    text-align: center;
+}
+
 h3 {
     font-size: 4em;
     margin-top: 0.2em;
@@ -42,25 +45,38 @@ p {
     font-family: 'Staatliches', serif;
 }
 
-a:link {
+a:link, a:visited {
     color: white;
-    background-color: transparent;
     text-decoration: none;
 }
-a:visited {
+
+a:hover, a:active {
     color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: white;
-    background-color: transparent;
     text-decoration: underline;
 }
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+
+header .left {
+    float: left;
+    width: 20%;
+    min-width: 5em;
+}
+
+header .right {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+section .left {
+    float: left;
+    width: 60%;
+    min-width: 2.5em;
+}
+
+section .right {
+    float: right;   
+    width: 30%;
+    text-align: right;
 }
 
 .clearfix:after {
@@ -72,25 +88,12 @@ a:active {
     height: 0;
 }
 
-.logo {
-    width: 100%;
-}
-
 .picture {
     float: left;
     width: 30%;
 }
 
-#home-main-article {
-    text-align: center;
-    padding: 40px;
-}
-
-#middle-nav-ul {
-    padding-left: 0;
-}
-
-.top-nav li, #middle-nav-ul li, .social-ul li {
+.top-nav li, .social-ul li {
   display: inline;
   font-family: 'Staatliches', serif;
 }
@@ -98,16 +101,6 @@ a:active {
 .top-nav li {
     font-size: 2em;
     padding: 0.2em;
-}
-
-#middle-nav {
-    text-align: center;
-}
-
-#middle-nav-ul li {
-    font-size: 2em;
-    border: 3px white solid;
-    padding: 0.5em;
 }
 
 .social-ul {
@@ -118,8 +111,26 @@ a:active {
     font-size: 1.5em;
 }
 
+#middle-nav a {
+    width: 4em;
+    font-size: 2em;
+    padding: 0.5em;
+    border: 0.1em white solid;
+    display: inline-block;
+    font-family: 'Staatliches', serif;
+}
+
+#home-main-article {
+    text-align: center;
+    padding: 2.5em;
+}
+
+#middle-nav {
+    text-align: center;
+}
+
 #wrapper-index {
-    padding: 20px;
+    padding: 1.25em;
     color: white;
     background-image: url("../images/attempt-1-sunscreen.jpg");
     background-size: cover;
@@ -128,33 +139,12 @@ a:active {
 }
 
 #wrapper-about {
-    padding: 20px;
+    padding: 1.25em;
     background-color: grey;
 }
 
-header .left {
-    float: left;
-    width: 7%;
-    min-width: 80px;
-}
-
-header .right {
-    padding-top: 10px;
-    float: right;   
-    width: 50%;
-    text-align: right;
-}
-
-section .left {
-    /*padding: 20px;*/
-    float: left;
-    width: 60%;
-    min-width: 40px;
-}
-
-section .right {
-    /*padding: 20px;*/
-    float: right;   
-    width: 30%;
-    text-align: right;
+@media only screen and (max-width: 1200px) {
+    header .right {
+        /*width: 50%;*/
+    }
 }
