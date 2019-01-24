@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches|Dancing+Script');
 
 header, aside, nav, article, footer, section, main, div {
-    border: 1px white solid;
+    /*border: 1px white solid;*/
 }
 
 body   {
